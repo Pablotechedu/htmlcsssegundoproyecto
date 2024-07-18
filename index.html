@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tu Tienda Online</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Menú inicial -->
+    <nav
+      id="navbar-color"
+      class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
+      <a class="navbar-brand" href="#">
+        <img class="logo" src="/Images/Logo.png" alt=""
+      /></a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto text-white">
+          <li class="nav-item">
+            <a class="nav-link" href="#banner">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#descripcion">Descripción</a>
+          </li>
+          <li class="nav-item"><a class="nav-link" href="#mapa">Mapa</a></li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonios">Testimonios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Banner principal -->
+    <section
+      id="banner"
+      class="d-flex align-items-center justify-content-center"
+      style="
+        background: url('/Images/bench-accounting-MGaFENpDCsw-unsplash.jpg')
+          no-repeat center center;
+        background-size: cover;
+        height: 100vh;
+      "
+    >
+      <div class="text-center text-white">
+        <h1>Bienvenidos a Tu Tienda Online</h1>
+        <p>Compra de todo en un solo lugar</p>
+      </div>
+    </section>
+
+    <!-- Sección de servicios -->
+    <section id="servicios" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Nuestros Servicios</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="/Images/fast-delivery.png"
+                class="card-img-top"
+                alt="Servicio 1"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Envio Rapido y Gratuito</h5>
+                <p class="card-text">
+                  Ofrecemos envío rápido y gratuito en todas las órdenes
+                  nacionales. Recibe tus productos en la puerta de tu casa en un
+                  plazo de 1 a 3 días hábiles sin costo adicional. Seguimiento
+                  en tiempo real de tu pedido.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="/Images/catalogue.png"
+                class="card-img-top"
+                alt="Servicio 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Catálogo Extenso y Variedad de Productos
+                </h5>
+                <p class="card-text">
+                  Descubre nuestro amplio catálogo con miles de productos
+                  disponibles en diversas categorías. Desde tecnología hasta
+                  moda, hogar y más, encontrarás todo lo que necesitas en un
+                  solo lugar. Actualizamos constantemente nuestro inventario
+                  para ofrecerte las últimas tendencias y productos
+                  innovadores..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="/Images/podium.png"
+                class="card-img-top"
+                alt="Servicio 3"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Programa de Recompensas para Clientes Frecuentes
+                </h5>
+                <p class="card-text">
+                  Agradecemos la lealtad de nuestros clientes. Únete a nuestro
+                  programa de recompensas y gana puntos por cada compra que
+                  realices. Los puntos pueden ser canjeados por descuentos
+                  exclusivos, productos gratuitos o acceso anticipado a nuevas
+                  colecciones..
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="card">
+              <img
+                src="/Images/money-back-guarantee.png"
+                class="card-img-top"
+                alt="Servicio 2"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Garantía de Devolución de Dinero</h5>
+                <p class="card-text">
+                  Estamos comprometidos con tu satisfacción. Si no estás
+                  completamente satisfecho con tu compra, ofrecemos una garantía
+                  de devolución de dinero de 30 días. Simplemente devuelve el
+                  producto en su estado original y te reembolsaremos el 100% de
+                  tu dinero.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Descripción de la empresa -->
+    <section id="descripcion" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Quiénes Somos</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <p>
+              En Tu Tienda Online, nos dedicamos a ofrecerte una experiencia de
+              compra excepcional en toda Centroamérica. Nos enorgullece brindar
+              un servicio de calidad, con un extenso catálogo de productos que
+              cubren diversas categorías, desde tecnología y moda hasta
+              artículos para el hogar y bienestar.
+            </p>
+          </div>
+          <div class="col-md-6">
+            <img
+              src="/Images/photo-1516321497487-e288fb19713f.avif"
+              class="img-fluid"
+              alt="Descripción de la empresa"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mapa con sucursal -->
+    <section id="mapa" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Nuestra Ubicación</h2>
+        <div class="embed-responsive embed-responsive-16by9">
+          <iframe
+            class="embed-responsive-item"
+            src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1097.3152369262314!2d-90.50657334918687!3d14.598535069556545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTTCsDM1JzU0LjciTiA5MMKwMzAnMjcuOCJX!5e0!3m2!1sen!2sgt!4v1721307401925!5m2!1sen!2sgt" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          >
+          </iframe>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de testimonios -->
+    <section id="testimonios" class="py-5 bg-light">
+      <div class="container">
+        <h2 class="text-center mb-4">Testimonios</h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img src="/Images/Profile1.png"
+                class="img-fluid rounded-circle mb-3"
+                alt="Testimonio 1"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">"Estoy encantada con mi experiencia en Tu Tienda Online. El proceso de compra fue muy sencillo y el envío rápido y gratuito fue una gran ventaja. Los productos que recibí superaron mis expectativas en términos de calidad. Definitivamente volveré a comprar aquí y lo recomendaré a mis amigos."</p>
+                <footer class="blockquote-footer">María López </footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img
+                src="/Images/Profile 2.png"
+                class="img-fluid rounded-circle mb-3"
+                alt="Testimonio 2"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">Tu Tienda Online tiene un catálogo impresionante. Encontré todo lo que necesitaba en un solo lugar, desde tecnología hasta artículos para el hogar. Además, el servicio al cliente es excelente. Tuve una pequeña consulta sobre mi pedido y me respondieron de inmediato. ¡Cinco estrellas sin duda!</p>
+                <footer class="blockquote-footer">Juan Martinez</footer>
+              </blockquote>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="testimonial">
+              <img
+                src="/Images/Profile 3.png"
+                class="img-fluid rounded-circle mb-3"
+                alt="Testimonio 3"
+              />
+              <blockquote class="blockquote">
+                <p class="mb-0">No puedo estar más satisfecha con mi compra en Tu Tienda Online. La garantía de devolución de dinero me dio la confianza para comprar, aunque no la necesité porque los productos eran perfectos. Además, los puntos de recompensa son una gran motivación para seguir comprando. ¡Gracias por un servicio tan increíble!</1p>
+                <footer class="blockquote-footer">Laura Sanchéz</footer>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sección de contacto -->
+    <section id="contacto" class="py-5">
+      <div class="container">
+        <h2 class="text-center mb-4">Contáctenos</h2>
+        <form>
+          <div class="form-row">
+            <div class="form-group col-md-6">
+              <label for="nombre">Nombre</label>
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                placeholder="Nombre"
+              />
+            </div>
+            <div class="form-group col-md-6">
+              <label for="telefono">Teléfono</label>
+              <input
+                type="tel"
+                class="form-control"
+                id="telefono"
+                placeholder="Teléfono"
+              />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="correo">Correo</label>
+            <input
+              type="email"
+              class="form-control"
+              id="correo"
+              placeholder="Correo"
+            />
+          </div>
+          <div class="form-group">
+            <label for="mensaje">Mensaje</label>
+            <textarea
+              class="form-control"
+              id="mensaje"
+              rows="4"
+              placeholder="Mensaje"
+            ></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <div><img class="logo-footer" src="/Images/Logo.png" alt=""></div>
+            <p>Compra de todo en un solo lugar</p>
+          </div>
+          <div class="col-md-4">
+            <h5>Menú</h5>
+            <ul class="list-unstyled">
+              <li><a href="#banner" class="text-white">Inicio</a></li>
+              <li><a href="#servicios" class="text-white">Servicios</a></li>
+              <li><a href="#descripcion" class="text-white">Descripción</a></li>
+              <li><a href="#mapa" class="text-white">Mapa</a></li>
+              <li><a href="#testimonios" class="text-white">Testimonios</a></li>
+              <li><a href="#contacto" class="text-white">Contacto</a></li>
+            </ul>
+          </div>
+          <div class="col-md-4">
+            <h5>Contacto</h5>
+            <ul class="list-unstyled">
+              <div class="row">
+                <li>
+                <a
+                  href="https://www.facebook.com"
+                  class="text-white"
+                  target="_blank"
+                  ><img src="/Images/facebook.png" alt="">
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com"
+                  class="text-white"
+                  target="_blank"
+                  ><img src="/Images/instagram.png" alt=""></a
+                >
+              </li>
+              <li>
+        
+                <a href="https://www.x.com" class="text-white" target="_blank"
+                  ><img src="/Images/twitter.png" alt=""></a
+                >
+              </li>
+            </div>
+              <li><span class="text-white">Teléfono: +502 1234 5678</span></li>
+              <li><span class="text-white">Correo: ventas@tutiendaonline.com</span></li>
+              <li>
+                <span class="text-white">Dirección: Ciudad de Guatemala</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Scripts de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>

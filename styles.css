@@ -1,0 +1,53 @@
+/* styles.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+#navbar-color {
+  background-color: #27303a !important;
+}
+
+.logo {
+  max-width: 300px;
+}
+#banner {
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+#servicios .card {
+  margin-bottom: 20px;
+  border-color: #094d92;
+}
+
+.card-img-top {
+  width: 150px;
+  align-self: center;
+}
+
+#descripcion img {
+  max-width: 100%;
+  height: auto;
+}
+
+.testimonial img {
+  max-width: 100px;
+  height: auto;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}
+
+footer img {
+  width: 50px;
+}
+
+.logo-footer {
+  width: 300px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
