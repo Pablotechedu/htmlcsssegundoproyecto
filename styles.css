@@ -7,22 +7,54 @@ body {
   background-color: #27303a !important;
 }
 
+.nav-item {
+  font-size: larger;
+}
+
 .logo {
   max-width: 300px;
 }
 #banner {
   color: white;
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: xx-large;
 }
 
 #servicios .card {
   margin-bottom: 20px;
-  border-color: #094d92;
+  border-color: #27303a;
 }
 
+.card {
+  height: 400px;
+  border-color: #27303a;
+  border-width: thick;
+}
+.card-title {
+  font-weight: bold;
+  text-align: center;
+}
+
+.card-body {
+  color: white;
+  background-color: #27303a;
+}
 .card-img-top {
   width: 150px;
   align-self: center;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.col-md-6 {
+  align-content: center;
+  font-size: larger;
+}
+
+#mapa {
+  background-color: #27303a;
+  color: white;
+  font-weight: bold;
 }
 
 #descripcion img {
@@ -41,7 +73,7 @@ footer a {
 }
 
 footer img {
-  width: 50px;
+  width: 35px;
 }
 
 .logo-footer {
